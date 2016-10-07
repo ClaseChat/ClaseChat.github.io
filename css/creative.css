@@ -167,7 +167,6 @@ header .header-content {
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
-  // text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
@@ -175,6 +174,7 @@ header .header-content .header-content-inner h1 {
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
+  color: #ffed00;
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
@@ -414,4 +414,13 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+#download-links {
+  margin-top: -40px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+#download-links img {
+  width: 150px;
+  vertical-align: middle;
 }
